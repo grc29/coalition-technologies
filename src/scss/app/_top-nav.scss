@@ -1,0 +1,36 @@
+#top-nav {
+  background: #ff6200;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    h2.call-us {
+      font-family: "Roboto", sans-serif;
+      font-size: 14.77px;
+      font-weight: bold;
+      color: #be3600;
+      text-transform: uppercase;
+      span {
+        color: #fff;
+      }
+    }
+    .right-menu {
+      display: flex;
+      justify-content: space-between;
+      a.link {
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #be3600;
+        font-size: 14.62px;
+        &:hover {
+          color: #fff;
+        }
+        &:first-of-type {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+header {
+  background: #f9f9f9;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+    h1.logo {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 41.13px;
+      color: #313131;
+      text-transform: uppercase;
+      span {
+        color: #ff6200;
+      }
+    }
+    ul.links {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      a.link {
+        font-family: "Roboto", sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #333;
+        padding-bottom: 8px;
+        cursor: pointer;
+        &:hover {
+          font-weight: bold;
+        }
+        &:active {
+          border-bottom: 4px solid #ff6200;
+        }
+      }
+    }
+  }
+}
